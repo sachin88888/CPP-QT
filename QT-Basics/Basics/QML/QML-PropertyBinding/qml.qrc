@@ -3,5 +3,7 @@
         <file>main.qml</file>
         <file>Basictypes.qml</file>
         <file>Basictypes-2.qml</file>
+        <file>PropertyBindingExplained.qml</file>
+        <file>GlobalObjectDemo.qml</file>
     </qresource>
 </RCC>

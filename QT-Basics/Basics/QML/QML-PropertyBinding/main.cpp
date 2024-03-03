@@ -11,7 +11,9 @@ int main(int argc, char *argv[])
     QQmlApplicationEngine engine;
     //const QUrl url(QStringLiteral("qrc:/main.qml"));
     //const QUrl url(QStringLiteral("qrc:/Basictypes.qml"));
-    const QUrl url(QStringLiteral("qrc:/Basictypes-2.qml"));
+    // const QUrl url(QStringLiteral("qrc:/Basictypes-2.qml"));
+    // const QUrl url(QStringLiteral("qrc:/PropertyBindingExplained.qml"));
+    const QUrl url(QStringLiteral("qrc:/GlobalObjectDemo.qml"));
     QObject::connect(
         &engine,
         &QQmlApplicationEngine::objectCreated,
