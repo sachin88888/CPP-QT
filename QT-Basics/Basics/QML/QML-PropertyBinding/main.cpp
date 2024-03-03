@@ -13,7 +13,8 @@ int main(int argc, char *argv[])
     //const QUrl url(QStringLiteral("qrc:/Basictypes.qml"));
     // const QUrl url(QStringLiteral("qrc:/Basictypes-2.qml"));
     // const QUrl url(QStringLiteral("qrc:/PropertyBindingExplained.qml"));
-    const QUrl url(QStringLiteral("qrc:/GlobalObjectDemo.qml"));
+    // const QUrl url(QStringLiteral("qrc:/GlobalObjectDemo.qml"));
+    const QUrl url(QStringLiteral("qrc:/PropertiesAndHandlers.qml"));
     QObject::connect(
         &engine,
         &QQmlApplicationEngine::objectCreated,
